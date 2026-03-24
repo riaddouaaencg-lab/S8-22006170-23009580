@@ -18,8 +18,8 @@
 
 | Champ | Détail |
 |---|---|
-| **Étudiants** | Étudiante 1 (N° 22006170) — Étudiante 2 (N° 23009580) — Étudiante 3 (22007263) |
-| **Encadrant** | [Larhlimi Abderrahim] |
+| **Étudiants** | Étudiante 1 (22006170) — Étudiante 2 (23009580) — Étudiante 3 (22007263) |
+| **Encadrant** | Larhlimi Abderrahim |
 | **Filière** | Contrôle, Audit  et Conseil |
 | **Année universitaire** | 2025 – 2026 |
 | **Semestre** | Semestre 8 |
