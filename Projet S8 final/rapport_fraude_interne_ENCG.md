@@ -5,7 +5,7 @@
 <div align="center">
 
 ## École Nationale de Commerce et de Gestion — SETTAT
-### Filière : Audit, Contrôle de Gestion & Systèmes d'Information
+### Filière : Contrôle, Audit  et Conseil
 
 ---
 
