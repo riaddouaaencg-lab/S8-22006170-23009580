@@ -90,7 +90,21 @@ La fraude interne constitue l'une des menaces les plus coûteuses et les plus in
 Selon le rapport de référence de l'ACFE (*Association of Certified Fraud Examiners*), **Report to the Nations 2024**, les organisations perdent en moyenne **5 % de leurs revenus annuels** du fait de la fraude occupationnelle. À l'échelle mondiale, les pertes cumulées se chiffrent en centaines de milliards de dollars, avec une durée médiane de détection de **12 mois** avant qu'une fraude ne soit découverte. Ce délai traduit une défaillance structurelle des dispositifs de contrôle interne traditionnels, majoritairement réactifs et fondés sur l'audit a posteriori.
 
 Face à ce constat, les organisations investissent progressivement dans des approches **proactives** reposant sur l'exploitation de données comportementales et l'application de techniques d'apprentissage automatique (*Machine Learning*, ML). Ces méthodes permettent d'identifier des schémas latents, imperceptibles à l'œil humain, annonciateurs d'un comportement déviant.
+### 1.2 Impact économique et organisationnel
 
+| Indicateur | Statistique ACFE 2024 |
+|---|---|
+| Perte médiane par cas | 145 000 $ |
+| Durée médiane avant détection | 12 mois |
+| Part des fraudes inférieures à 100 000 $ | 58 % |
+| Secteur le plus touché | Services financiers et gouvernements |
+| Vecteur de détection n°1 | Dénonciation (43 % des cas) |
+
+### 1.3 Le rôle du contrôle interne
+
+Le contrôle interne constitue la première ligne de défense contre la fraude. Selon le cadre **COSO (Committee of Sponsoring Organizations)**, un système de contrôle interne efficace repose sur cinq composantes : environnement de contrôle, évaluation des risques, activités de contrôle, information et communication, pilotage. Ce projet vise à renforcer la composante "Évaluation des risques" grâce à un modèle prédictif.
+
+---
 ### 1.2 Problématique centrale
 
 La problématique centrale de cette étude se formule comme suit :
