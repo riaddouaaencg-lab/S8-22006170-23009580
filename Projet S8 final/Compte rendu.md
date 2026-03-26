@@ -236,7 +236,28 @@ La détection automatisée de la fraude par apprentissage automatique a connu un
 ## 3. Descriptif du Dataset & Preprocessing
 
 ### 3.1 Source et génération des données
+## Création du Dataset Synthétique
 
+Le dataset est généré en Python à l'aide des bibliothèques **NumPy** et **Pandas**, pour simuler les comportements de **1 000 employés** dans une organisation fictive.
+
+```python
+np.random.seed(42)
+n_employes = 1000
+
+data = {
+    'ID_Employe': range(1, n_employes + 1),
+    'Departement': np.random.choice(
+        ['Achats', 'Finance', 'Ventes', 'RH', 'IT', 'Logistique'],
+        n_employes, p=[0.15, 0.15, 0.25, 0.10, 0.15, 0.20]
+    ),
+    'Anciennete_Annees':         np.random.randint(1, 25, n_employes),
+    'Score_Pression_Financiere': np.random.randint(1, 11, n_employes),
+    'Satisfaction_Travail':      np.random.randint(1, 11, n_employes),
+    'Heures_Supp_Mois':          np.random.randint(0, 50, n_employes),
+    'Conges_Non_Pris':           np.random.randint(0, 30, n_employes),
+    'Acces_Privilegie':          np.random.choice([0, 1], n_employes, p=[0.8, 0.2])
+}
+```
 Le dataset utilisé dans cette étude est un **jeu de données synthétique**, généré par simulation stochastique contrôlée dans la Cellule 2 du notebook. La graine aléatoire (*random seed*) est fixée à `42`, garantissant la **reproductibilité** intégrale des résultats.
 
 La variable cible `Fraude_Interne` est construite selon une fonction de score composite inspirée du Triangle de Cressey :
