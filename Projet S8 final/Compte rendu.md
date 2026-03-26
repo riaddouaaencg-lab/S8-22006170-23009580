@@ -22,6 +22,19 @@
 
 ---
 
+## Avant-propos
+
+Ce projet s'inscrit dans le cadre d'une formation en **audit, contrôle interne et gouvernance d'entreprise**. La fraude interne représente l'une des menaces les plus sous-estimées pour la santé financière et organisationnelle des entreprises. Pourtant, les méthodes de détection traditionnelles – audits périodiques, contrôles hiérarchiques, alertes manuelles – peinent à identifier les signaux faibles précurseurs d'un comportement frauduleux.
+
+Ce projet explore comment la **data science et le machine learning** peuvent venir en appui des auditeurs internes pour prédire, anticiper et prévenir la fraude interne. Le choix de ce thème est motivé par :
+
+- La montée en puissance des fraudes occupationnelles dans les organisations (ACFE, 2024)
+- Le besoin croissant d'outils analytiques dans les fonctions d'audit et de conformité
+- L'opportunité d'articuler une théorie criminologique établie (Triangle de Cressey) avec des techniques modernes de classification supervisée
+
+---
+
+
 ## Table des Matières
 
 - **1. Introduction & Thématique Globale**
