@@ -1,5 +1,4 @@
-# Compte Rendu — Projet 
-# Rapport d'Étude de Cas Scientifique
+<img width="901" height="522" alt="image" src="https://github.com/user-attachments/assets/6637a4f2-c95f-4a57-91c3-059a88887714" /># Rapport d'Étude de Cas Scientifique
 # Détection de la Fraude Interne en Entreprise par Apprentissage Automatique
  
 ---
@@ -107,10 +106,11 @@ L'étude poursuit trois objectifs complémentaires :
 Le fondement théorique de cette étude repose sur le modèle séminal proposé par le criminologue Donald R. Cressey dans son ouvrage *Other People's Money: A Study in the Social Psychology of Embezzlement* (1953). Ce modèle, universellement adopté par la profession d'audit et de forensic accounting, stipule que tout acte de fraude occupationnelle est la résultante de trois facteurs concomitants :
 
 
-```
-<img src="24.png" width="500">
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/connaisssance%20sur%20la%20base%20de%20donn%C3%A9e/24.png?raw=true" />
 
-```
+---
+
 
 - **La Pression** (*Pressure*) désigne une contrainte perçue ou réelle — financière, professionnelle ou personnelle — qui motive l'individu à enfreindre les règles. Dans notre modèle, elle est opérationnalisée par la variable `Score_Pression_Financiere`.
 - **L'Opportunité** (*Opportunity*) représente l'accès aux ressources et l'existence de lacunes dans les mécanismes de contrôle. Elle est capturée par la variable binaire `Acces_Privilegie`.
@@ -165,9 +165,13 @@ Les individus appartenant au **95e percentile** de ce score sont étiquetés com
 ### 3.2 Structure et variables du dataset
 
 Le dataset comprend **1 000 observations** (employés) et **10 variables**, dont 7 variables prédictives (*features*), 1 variable d'identification, 1 variable cible et 1 variable de score continu.
-```
-<img width="1666" height="477" alt="21" src="https://github.com/user-attachments/assets/0b7a0f1b-f729-49a1-a62e-9dfc8da15344" />
-```
+
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/connaisssance%20sur%20la%20base%20de%20donn%C3%A9e/21.png?raw=true" />
+
+
+---
+
 
 | # | Variable | Type | Modalités / Plage | Rôle |
 |---|---|---|---|---|
@@ -217,8 +221,6 @@ Le paramètre `class_weight='balanced'` est utilisé pour Random Forest et Régr
 
 > **Graphique de référence :** KPI Globaux — Tableau de bord d'entrée
 
-![KPI Globaux — Tableau de bord principal](COLLER_IMAGE_KPI_ICI)
-
 L'analyse univariée révèle les distributions suivantes :
 
 - **Score_Pression_Financiere & Satisfaction_Travail** : distributions uniformes sur [1, 10]. La pression moyenne ressort à **5.4/10**, confirmant qu'une fraction significative de la population évolue sous contrainte financière modérée à élevée.
@@ -230,9 +232,11 @@ L'analyse univariée révèle les distributions suivantes :
 
 > **Graphiques de référence :** Matrice de Corrélation · Pression vs Satisfaction
 
-![Matrice de Corrélation](COLLER_IMAGE_MATRICE_CORRELATION_ICI)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/Analyse%20exploratoire%20-%20profils%20a%20risque/5.png?raw=true">
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/Analyse%20exploratoire%20-%20profils%20a%20risque/pression%20vs%20satisfaction%20.png?raw=true" />
 
-![Pression vs Satisfaction — Scatter Plot](COLLER_IMAGE_PRESSION_SATISFACTION_ICI)
+---
 
 La matrice de corrélation calculée sur l'ensemble des features numériques révèle :
 
@@ -247,13 +251,13 @@ Le nuage de points *Pression vs Satisfaction* segmenté par label de fraude conf
 
 > **Graphiques de référence :** Ancienneté par Profil · Heures Supplémentaires · Congés Non Pris · Profil Radar
 
-![Ancienneté par Profil — Boxplot](COLLER_IMAGE_ANCIENNETE_ICI)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/Analyse%20exploratoire%20-%20profils%20a%20risque/2.png?raw=true">
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/Analyse%20exploratoire%20-%20profils%20a%20risque/3.png?raw=true" />
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/Analyse%20exploratoire%20-%20profils%20a%20risque/4.png?raw=true" />
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/Analyse%20exploratoire%20-%20profils%20a%20risque/6.png?raw=true"/>
+---
 
-![Heures Supplémentaires — Histogramme](COLLER_IMAGE_HEURES_SUPP_ICI)
-
-![Congés Non Pris — Violin Plot](COLLER_IMAGE_CONGES_ICI)
-
-![Profil Radar — Fraudeur vs Non-Fraudeur](COLLER_IMAGE_RADAR_ICI)
 
 L'analyse exploratoire multivariée permet de dessiner deux profils polaires :
 
@@ -277,10 +281,14 @@ Le **profil radar** synthétise visuellement ces différences : la surface rouge
 ### 4.4 Segmentation du risque par département
 
 > **Graphiques de référence :** Taux de Fraude par Département · Score de Risque par Département
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/connaisssance%20sur%20la%20base%20de%20donn%C3%A9e/23.png?raw=true"/>
 
-![Taux de Fraude par Département — Barres horizontales](COLLER_IMAGE_FRAUDE_DEPARTEMENT_ICI)
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/segmentation%20des%20profils%20a%20risque/14.png?raw=true"/>
 
-![Score de Risque par Département — Violin Plot](COLLER_IMAGE_SCORE_RISQUE_DEPARTEMENT_ICI)
+---
+
+---
 
 Le violin plot du score de risque par département révèle deux niveaux d'analyse complémentaires :
 
