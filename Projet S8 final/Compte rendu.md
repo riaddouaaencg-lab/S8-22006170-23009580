@@ -1,4 +1,11 @@
-# RAPPORT DE PROJET — SEMESTRE 8
+<div align="Left">
+  <img src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/ENCG-S.png?raw=true" 
+       width="50" 
+       style="border: 2px solid black; padding: 5px; border-radius: 8px;">
+</div>
+
+
+## RAPPORT DE PROJET — SEMESTRE 8
 
 ---
 
