@@ -41,6 +41,10 @@ Ce projet explore comment la **data science et le machine learning** peuvent ven
   - 1.1 Contexte industriel et enjeux économiques
   - 1.2 Problématique centrale
   - 1.3 Objectifs de l'étude
+  - 2 Contexte du Projet
+  - 3 Intérêt et Importance du Thèm
+  - 4 L'Intelligence Artificielle au Service de l'Audit
+
 - **2. Revue de Littérature & Fondements Théoriques**
   - 2.1 Le Triangle de la Fraude (Cressey, 1953)
   - 2.2 État de l'art en détection automatisée de la fraude
@@ -105,6 +109,61 @@ Face à ce constat, les organisations investissent progressivement dans des appr
 Le contrôle interne constitue la première ligne de défense contre la fraude. Selon le cadre **COSO (Committee of Sponsoring Organizations)**, un système de contrôle interne efficace repose sur cinq composantes : environnement de contrôle, évaluation des risques, activités de contrôle, information et communication, pilotage. Ce projet vise à renforcer la composante "Évaluation des risques" grâce à un modèle prédictif.
 
 ---
+## 2. Contexte du Projet
+
+### 2.1 Augmentation des fraudes internes
+
+Les rapports successifs de l'ACFE documentent une progression continue des cas de fraudes internes dans les organisations de toutes tailles. Les crises économiques (crise financière de 2008, pandémie de 2020) ont historiquement amplifié les comportements frauduleux en augmentant la pression financière sur les individus.
+
+### 2.2 Enjeux de gouvernance et de conformité
+
+La gouvernance d'entreprise impose aux conseils d'administration et aux comités d'audit de mettre en place des dispositifs robustes de détection. Réglementairement, la **loi Sarbanes-Oxley (SOX)** aux États-Unis, la **8e directive européenne** et les normes **ISA 240** (audit des états financiers) imposent une vigilance renforcée concernant le risque de fraude.
+
+### 2.3 Le rôle croissant de l'intelligence artificielle
+
+Les directions d'audit interne intègrent progressivement des outils d'**analyse de données (data analytics)**, de **détection d'anomalies** et d'apprentissage automatique pour dépasser les limites des échantillonnages statistiques classiques. Ce projet s'inscrit dans cette dynamique.
+
+---
+
+## 3. Intérêt et Importance du Thème
+
+### 3.1 Un problème majeur pour les entreprises
+
+La fraude interne est particulièrement insidieuse car elle provient de personnes bénéficiant déjà de la confiance de l'organisation. Elle génère :
+
+- Des **pertes financières directes** (détournements, surfacturation, fraudes aux remboursements)
+- Des **coûts indirects** importants : enquêtes, litiges, atteinte à la réputation, démotivation des équipes
+- Une **dégradation de la gouvernance** lorsqu'elle implique des cadres supérieurs (tone at the top)
+
+### 3.2 L'intérêt du machine learning dans la détection de fraude
+
+Les approches par règles métier (règles de Benford, seuils d'anomalie) sont limitées car elles ne capturent pas les interactions complexes entre variables. Les modèles de machine learning présentent plusieurs avantages :
+
+- **Capacité à traiter de grandes volumétries de données** sans fatigue cognitive
+- **Détection de patterns non linéaires** et d'interactions entre variables
+- **Scalabilité** : applicable à des milliers d'employés simultanément
+- **Mise à jour continue** des modèles au fur et à mesure de nouvelles données
+
+---
+
+## 4. L'Intelligence Artificielle au Service de l'Audit
+
+### 4.1 L'IA dans l'audit interne
+
+Les **Institute of Internal Auditors (IIA)** recommandent l'intégration de l'IA dans les pratiques d'audit pour passer d'un audit par sondage à un **audit continu en temps réel**. Des outils comme des algorithmes de clustering, de classification supervisée et de NLP sont déjà utilisés par les Big Four et les grandes directions d'audit internes.
+
+### 4.2 Détection automatisée des anomalies
+
+La détection d'anomalies par machine learning permet d'identifier :
+- Des **transactions inhabituelles** hors des patterns historiques
+- Des **comportements atypiques** en termes d'accès aux systèmes
+- Des **incohérences** entre les déclarations et les données réelles
+
+### 4.3 Contribution de la data science à la gouvernance
+
+La data science permet de **quantifier le risque de fraude** de manière objective et reproductible, en substituant un score probabiliste aux jugements subjectifs des auditeurs. Cela renforce la qualité des rapports d'audit et améliore la prise de décision des comités de gouvernance.
+
+--- 
 ### 1.2 Problématique centrale
 
 La problématique centrale de cette étude se formule comme suit :
@@ -700,4 +759,4 @@ Cette étude repose sur des données synthétiques. Un travail futur devrait : (
 
 ---
 
-| §8.3 |
+
